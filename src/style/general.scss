@@ -1,0 +1,11 @@
+@import '../assets/colos.scss';
+.container{
+	background-color: $background_general;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+*{
+	margin: 0;
+	padding: 0;
+}

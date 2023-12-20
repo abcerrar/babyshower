@@ -1,0 +1,24 @@
+@import '../../assets/colos.scss';
+
+.home_container{
+	background-color: $background1;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+	.home_container{		
+		border: solid 2px grey;
+		border-radius: 10px;
+		width: 40%;
+		height: 80%;		
+		margin: 100px auto;			
+	}
+
+}
+@media screen and (max-width: 768px) {
+	.home_container{
+		height: 100vh;
+	}
+}
